@@ -1,0 +1,18 @@
+main {
+  padding-top: 75px; /* navbar space */
+}
+
+/* smooth spacing control */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* buttons */
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

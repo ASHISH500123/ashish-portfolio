@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* IMPORTANT: no extra huge gaps */
+section {
+  padding: 80px 10%;
+  margin: 0;
+}
+
+/* images safe */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
